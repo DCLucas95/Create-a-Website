@@ -1,3 +1,8 @@
+body{
+    background-image: url("../images/soft-colored-abstract-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 h1 {
     color: skyblue;
 }
@@ -15,4 +20,8 @@ img {
     background-color: #343a40;
     color: white;
     font-weight: bold;
+    border-style: solid;
+    border-width: 0cm;
+    border-top-width:10px;
+    border-color:skyblue;
     }
