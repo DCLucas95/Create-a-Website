@@ -8,20 +8,29 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-dark bg-dark">
-      <span class="navbar-brand mb-0 h1">David Lucas</span>
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link" href="./index.html">About</a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="./Contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./Portfolio.html">Portfolio</a>
-            </li>
-          </ul>
-  </nav>
+ <!--Navbar-->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <a class="navbar-brand" href="index.html" id="logo">David Lucas</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+    aria-controls="navbarTogglerDemo01" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="./index.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./Contact.html">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./Portfolio.html">Portfolio</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
   <form>
     <div class="container">
@@ -53,7 +62,13 @@
     </div>
   </form>
 
-  <Footer class="footer">
-    <p>&#169;Copyright 2020 David Lucas</p>
-  </Footer>
+  <br>
+
+  <footer class="footer">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">
+      &copy; Copyright David Lucas
+    </p>
+  </footer>
+  
 </body>
