@@ -2,8 +2,7 @@ h1 {
     text-align: center;
 }
 
-/* navbar word colours*/
-a {
+#logo {
     color: coral;
 }
 
@@ -14,9 +13,16 @@ body{
     background-size: cover;
 }
 
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+
 .container {
-    width: 100%;
     margin: 40px auto;
+    padding: 20px;
+    background-color:ivory;
+    color: black;
 }
 
 h1 {
@@ -28,33 +34,18 @@ hr{
     height: 3px;
 }
 
-img {
-    float: none;
+.portfolio-image {
+    padding: 30px;
 }
 
-.portfolio-centre {
-    margin: 0 auto;
-}
-
-.container-fluid {
-    padding: 20px;
-}
-
-.container {
-    padding: 20px;
-    background-color:ivory;
-    color: black;
-}
-
-.footer {
-    color: ivory;
-    bottom: 0%;
+footer {
+    position: absolute;
+    bottom: 0;
     width: 100%;
-    background-color: #343a40;
-    font-weight: bold;
-    border-style: solid;
-    border-width: 0cm;
-    border-top-width:10px;
+    background-color:#343a40;
+    border-top-style: solid;
+    border-top-width: 10px;
     border-color:coral;
-}
-    
+  }
+
+
