@@ -7,9 +7,6 @@
 # Description
 <p>The purpose of this project was to create a website showcasing what I have learnt in HTML and CSS including Bootstrap.</P>
 
-# Images
-
-
 # Tools Used
 <ul>
 <li>Github for commitments and website hosting </li>
