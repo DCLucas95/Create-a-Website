@@ -4,6 +4,7 @@ h1 {
 
 #logo {
     color: coral;
+    font-weight: bold;
 }
 
 /*Background image for website*/
@@ -18,7 +19,15 @@ body{
     min-height: 100vh;
   }
 
-.container {
+.headshot {
+    padding-bottom: 30px;
+}
+
+/* .portfolio-centre {
+    margin: 0 auto;
+} */
+
+.information {
     margin: 40px auto;
     padding: 20px;
     background-color:ivory;
