@@ -14,11 +14,6 @@ body{
     background-size: cover;
 }
 
-#page-container {
-    position: relative;
-    min-height: 100vh;
-  }
-
 .headshot {
     padding-bottom: 30px;
 }
@@ -52,5 +47,3 @@ footer {
     border-top-width: 10px;
     border-color:coral;
   }
-
-
